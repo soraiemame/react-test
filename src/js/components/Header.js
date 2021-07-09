@@ -4,7 +4,7 @@ import Title from "./Header/Title";
 export default class Header extends React.Component {
     handle(e){
         const t = e.target.value;
-        this.props.changeTitle(t);
+        this.props.changeT(t);
     }
     render(){
         console.log(this.props);
