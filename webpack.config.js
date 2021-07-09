@@ -7,7 +7,7 @@ module.exports = {
   entry: "./js/client.js",
   module: {
     rules: [{
-      test: /\.jsx?$/,
+      test: /\.(jsx|js)?$/,
         exclude: /(node_modules|bower_components)/,
         use: [{
           loader: 'babel-loader',
